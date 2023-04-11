@@ -34,14 +34,13 @@ export const Title = styled.h1`
     font-size: 34px;
     font-weight: 500;
     color: #f8eff4;
-    margin-top: 90px;
   }
 
   @media (max-width: 480px) {
     font-size: 24px;
     font-weight: 600;
     color: #f8eff4;
-    margin-top: 60px;
+
     background-color: rgb(95, 76, 70, 0.9);
   }
 `;
