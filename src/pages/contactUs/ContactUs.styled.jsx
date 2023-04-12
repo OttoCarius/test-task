@@ -20,6 +20,7 @@ export const Wrap = styled.div`
     color: #000;
     font-size: 32px;
     font-weight: 500;
+    text-align: center;
   }
   p {
     font-size: 22px;

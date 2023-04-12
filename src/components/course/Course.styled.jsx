@@ -5,6 +5,8 @@ export const CourseWrap = styled.li`
   background-color: #5f4c46;
   box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
+  transition: 0.7s all ease;
+  cursor: pointer;
 
   :hover {
     background-color: #b48678;
@@ -57,22 +59,3 @@ export const Text = styled.p`
   font-size: 16px;
   color: #fff;
 `;
-
-// .project {
-// 	max-width: 370px;
-// 	background-color: var(--project-card-bg);
-// 	box-shadow: var(--box-shadow);
-// 	border-radius: 10px;
-// }
-
-// .project__img {
-// 	border-radius: 10px;
-// }
-
-// .project__title {
-// 	padding: 15px 20px 25px;
-// 	font-weight: 700;
-// 	font-size: 24px;
-// 	line-height: 1.3;
-// 	color: var(--project-card-text);
-// }
